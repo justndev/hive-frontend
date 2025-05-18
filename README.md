@@ -1,46 +1,23 @@
-# Getting Started with Create React App
+# Hive Frontend
+My first full-stack app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This repository is a frontend part of "Hive" project (Spring boot + React + PostgreSQL). It is a messenger app, that supports authentication, JWT security, message exchange as well as posts sharing. This is my first full-stack app, made back in Spring of 2024 to try out Spring boot and React skills. Even though, the code is weak, the foundation of it will serve for my current big commercial project.
 
-In the project directory, you can run:
+## Features
+- Sign up/Sign in
+- Send friend request
+- Receive, accept/deny request
+- Send message in a chat
+- Post photos
+- View posts
+- Real-time messaging with WebSockets
 
-### `npm start`
+## Design
+![Home Page](./hive-home.jpg)
+![Home Page](./hive-chat.jpg)
+![Home Page](./hive-profile.jpg)
+![Home Page](./hive-posts.jpg)
+![Home Page](./hive-add.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
